@@ -1,0 +1,442 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="INJ\ReflectiveLoader.cpp" />
+    <ClCompile Include="anti_aim.cpp">
+      <Filter>ragebot</Filter>
+    </ClCompile>
+    <ClCompile Include="anti-lby.cpp">
+      <Filter>ragebot</Filter>
+    </ClCompile>
+    <ClCompile Include="fakelag.cpp">
+      <Filter>ragebot</Filter>
+    </ClCompile>
+    <ClCompile Include="experimental.cpp">
+      <Filter>ragebot</Filter>
+    </ClCompile>
+    <ClCompile Include="extrapolation.cpp">
+      <Filter>ragebot</Filter>
+    </ClCompile>
+    <ClCompile Include="new_backtrackhelper.cpp">
+      <Filter>ragebot</Filter>
+    </ClCompile>
+    <ClCompile Include="RageBot.cpp">
+      <Filter>ragebot</Filter>
+    </ClCompile>
+    <ClCompile Include="Resolver.cpp">
+      <Filter>ragebot</Filter>
+    </ClCompile>
+    <ClCompile Include="Autowall.cpp">
+      <Filter>ragebot</Filter>
+    </ClCompile>
+    <ClCompile Include="Chams.cpp">
+      <Filter>visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="ESP.cpp">
+      <Filter>visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="Visual.cpp">
+      <Filter>visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="radar.cpp">
+      <Filter>visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="autodefuse.cpp">
+      <Filter>misc</Filter>
+    </ClCompile>
+    <ClCompile Include="circlestrafer.cpp">
+      <Filter>misc</Filter>
+    </ClCompile>
+    <ClCompile Include="CRC32.cpp">
+      <Filter>misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Dumping.cpp">
+      <Filter>misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Hacks.cpp">
+      <Filter>misc</Filter>
+    </ClCompile>
+    <ClCompile Include="MiscHacks.cpp">
+      <Filter>misc</Filter>
+    </ClCompile>
+    <ClCompile Include="position_adjust.cpp">
+      <Filter>misc</Filter>
+    </ClCompile>
+    <ClCompile Include="UTIL Functions.cpp">
+      <Filter>misc</Filter>
+    </ClCompile>
+    <ClCompile Include="DLLMain.cpp">
+      <Filter>sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="EnginePrediction.cpp">
+      <Filter>sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities.cpp">
+      <Filter>sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="global_count.cpp">
+      <Filter>sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="globalshh.cpp">
+      <Filter>sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks.cpp">
+      <Filter>sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="Interfaces.cpp">
+      <Filter>sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="knife_animations.cpp">
+      <Filter>sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="MathFunctions.cpp">
+      <Filter>sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5.cpp">
+      <Filter>sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="lodepng.cpp">
+      <Filter>sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="MetaInfo.cpp">
+      <Filter>sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="NetVarManager.cpp">
+      <Filter>sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="NetVars.cpp">
+      <Filter>sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="newbacktrack.cpp">
+      <Filter>sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="Offsets.cpp">
+      <Filter>sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="other_helpers.cpp">
+      <Filter>sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="SpoofedConvar.cpp">
+      <Filter>sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml2.cpp">
+      <Filter>sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities.cpp">
+      <Filter>sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderManager.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+    <ClCompile Include="laggycompensation.cpp">
+      <Filter>misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Skinchanger.cpp">
+      <Filter>visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="knifebot.cpp">
+      <Filter>misc</Filter>
+    </ClCompile>
+    <ClCompile Include="legit.cpp">
+      <Filter>legitbot</Filter>
+    </ClCompile>
+    <ClCompile Include="btlegit.cpp">
+      <Filter>legitbot</Filter>
+    </ClCompile>
+    <ClCompile Include="blockbot.cpp">
+      <Filter>legitbot</Filter>
+    </ClCompile>
+    <ClCompile Include="autoaccept.cpp">
+      <Filter>misc</Filter>
+    </ClCompile>
+    <ClCompile Include="damageindicator.cpp">
+      <Filter>visuals</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="INJ\ReflectiveLoader.h" />
+    <ClInclude Include="antiaim.h">
+      <Filter>ragebot</Filter>
+    </ClInclude>
+    <ClInclude Include="fakelag.h">
+      <Filter>ragebot</Filter>
+    </ClInclude>
+    <ClInclude Include="experimental.h">
+      <Filter>ragebot</Filter>
+    </ClInclude>
+    <ClInclude Include="new_backtrackhelper.h">
+      <Filter>ragebot</Filter>
+    </ClInclude>
+    <ClInclude Include="RageBot.h">
+      <Filter>ragebot</Filter>
+    </ClInclude>
+    <ClInclude Include="Resolver.h">
+      <Filter>ragebot</Filter>
+    </ClInclude>
+    <ClInclude Include="Autowall.h">
+      <Filter>ragebot</Filter>
+    </ClInclude>
+    <ClInclude Include="Chams.h">
+      <Filter>visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="ESP.h">
+      <Filter>visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="glow_outline_effect.h">
+      <Filter>visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="Visuals.h">
+      <Filter>visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="radar.h">
+      <Filter>visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiLeak.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="autodefuse.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="bspflags.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="CBulletListener.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="circlestrafer.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="CRC32.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Dumping.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineClient.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Hacks.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="MiscHacks.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="MiscClasses.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="MiscDefinitions.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="position_adjust.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="UTIL Functions.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseClient.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="CClientState.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientRecvProps.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonIncludes.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="CUtlVector.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="DLLMain.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="EnginePrediction.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="global_count.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="globalshhh.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="hitmarker.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="IClientMode.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="idk.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="killsay.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="MathFunctions.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="lodepng.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="Materials.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="MetaInfo.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVars.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="newbacktrack.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="pasted.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="Proxies.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="INJ\ReflectiveDLLInjection.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.hpp">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="Surface.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="surfaces.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml2.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="winwindef.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="xor.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="XorStr.hpp">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="xostr.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.h">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderManager.h">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls.h">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="laggycompensation.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="LagCompensation2.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="DamageIndicator.h">
+      <Filter>visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="Skinchanger.h">
+      <Filter>visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="Skins.h">
+      <Filter>visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="knifebot.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="lin_extp.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="legit.h">
+      <Filter>legitbot</Filter>
+    </ClInclude>
+    <ClInclude Include="btlegit.h">
+      <Filter>legitbot</Filter>
+    </ClInclude>
+    <ClInclude Include="blockbot.h">
+      <Filter>legitbot</Filter>
+    </ClInclude>
+    <ClInclude Include="Playerlist.h">
+      <Filter>playerlist</Filter>
+    </ClInclude>
+    <ClInclude Include="autoaccept.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ragebot">
+      <UniqueIdentifier>{13f40f1e-c4cf-425b-bd39-b584ce45ea00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="legitbot">
+      <UniqueIdentifier>{2c8e034e-3ab4-49c5-a345-514efe9ffd8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="visuals">
+      <UniqueIdentifier>{c1747af2-ebb3-4165-bd9d-4122a3d1bc32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk">
+      <UniqueIdentifier>{c77bf044-b9a4-453d-930e-2df99f69b46c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu">
+      <UniqueIdentifier>{08113d15-66b2-433c-9fbe-5caab4d05305}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="misc">
+      <UniqueIdentifier>{f473a5ed-6f68-4d35-a8cc-adf96c3ef5cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playerlist">
+      <UniqueIdentifier>{0e269c74-20b7-46f8-8362-4ed1b8cfe21b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd">
+      <Filter>sdk</Filter>
+    </None>
+  </ItemGroup>
+</Project>
